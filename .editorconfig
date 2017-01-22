@@ -1,0 +1,17 @@
+# Editor Configuration
+
+# Root
+root = true
+
+# Set default charset
+charset = utf-8
+
+# Indentations
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Json files
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
