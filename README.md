@@ -12,9 +12,9 @@ you to add additional implementation without breaking existing logic.
 Also known as pub-sub pattern or dependents pattern. When the state of one changes its dependents are notified.
 A one to many relationship.
 
-           |------ Observer
-Subject ---|------ Observer
-           |------ Observer
+                |------ Observer
+    Subject --- |------ Observer
+                |------ Observer
 
 ### Resources ###
 - https://en.wikipedia.org/wiki/Strategy_pattern
