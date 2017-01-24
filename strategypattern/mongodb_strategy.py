@@ -1,7 +1,6 @@
 import sys
 from strategypattern.database_strategy import DatabaseStrategy
 
-
 class MongoDbStrategy(DatabaseStrategy):
 
     def dbconnection(self, host, user, passwd, db):

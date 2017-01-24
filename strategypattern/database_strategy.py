@@ -1,6 +1,5 @@
 from abc import ABCMeta, abstractmethod
 
-
 class DatabaseStrategy(object):
     __metaclass__ = ABCMeta
 
