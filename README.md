@@ -18,4 +18,4 @@ A one to many relationship.
 
 ### Resources ###
 - https://en.wikipedia.org/wiki/Strategy_pattern
-
+- https://en.wikipedia.org/wiki/Observer_pattern
