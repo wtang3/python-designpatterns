@@ -1,8 +1,8 @@
 from abc import ABCMeta, abstractmethod
 
-class GameStateObserver(object):
+class GameStateAbsObserver(object):
     __metaclass__ = ABCMeta
 
     @abstractmethod
-    def update(self,value):
+    def update(self, value):
         pass

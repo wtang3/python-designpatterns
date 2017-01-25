@@ -1,13 +1,13 @@
-from abc import ABCMeta, abstractmethod
-from observerpattern import game_stat_observer
+from observerpattern.game_stat_abssubject import GameStateAbsSubject
 
-class GameStateSubject(object):
-    __metaclass__ = ABCMeta
-    _observers = set()
+class GameStatSubject(GameStateAbsSubject):
 
-    def attach(self, observer):
+    def __init__(self):
+        self.score = 0
 
-    def detach(self, observer):
+    def set_score(self, score):
+        self.score = score
+        self.notify()
 
-    def notify(self, value=None):
-
+    def get_score(self):
+        return self.score
