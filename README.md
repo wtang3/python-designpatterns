@@ -16,6 +16,13 @@ A one to many relationship.
     Subject --- |------ Observer
                 |------ Observer
 
+### Facade Pattern ###
+
+Also known as the structural pattern, used to provide a simplified interface or a class library. It defines
+a higher-level interface that allows a subsystem easier to use.
+
+
 ### Resources ###
 - https://en.wikipedia.org/wiki/Strategy_pattern
 - https://en.wikipedia.org/wiki/Observer_pattern
+- https://en.wikipedia.org/wiki/Facade_pattern
