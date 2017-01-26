@@ -21,6 +21,8 @@ A one to many relationship.
 Also known as the structural pattern, used to provide a simplified interface or a class library. It defines
 a higher-level interface that allows a subsystem easier to use.
 
+Example SOA a webservice calling a number of smaller services.
+
 
 ### Resources ###
 - https://en.wikipedia.org/wiki/Strategy_pattern
