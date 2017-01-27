@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 
-class BootstrapFacade:
+class Bootstrap:
     __metaclass__ = ABCMeta
 
     @abstractmethod
