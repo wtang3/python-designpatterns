@@ -10,6 +10,5 @@ class Tests(unittest.TestCase):
         states = facade.state()
         self.assertListEqual(states, ['Executed', 'Executed'], "Bootstrap did not run all commands")
 
-
 if __name__ == '__main__':
     unittest.main()
