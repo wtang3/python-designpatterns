@@ -7,6 +7,12 @@ This repo was designed for learning purposes, feedback welcomed.
 One major problem in OOD is the Open-Closed Principle (OCP) in SOLID, this pattern allows
 you to add additional implementation without breaking existing logic.
 
+     Context --- (Composition) --- Strategy
+                                      |
+                                      |
+                                 ------------
+                                 |          |
+                             StrategyA   StrategyB
 ### Observer Pattern ###
 
 Also known as pub-sub pattern or dependents pattern. When the state of one changes its dependents are notified.
