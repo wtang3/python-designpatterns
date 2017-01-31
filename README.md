@@ -41,6 +41,7 @@ Example SOA a webservice calling a number of smaller services.
    
 ### Factory Pattern (Creational)
 
+Also known as the virtual constructor pattern, it assist with creating objects based on decisions.
 
 ### Resources ###
 - https://en.wikipedia.org/wiki/Strategy_pattern
