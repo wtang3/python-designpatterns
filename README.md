@@ -43,6 +43,13 @@ Example SOA a webservice calling a number of smaller services.
 
 Also known as the virtual constructor pattern, it assist with creating objects based on decisions.
 
+     PlaneFactory ----- AbstractPlane
+                          ____|_____
+                         |          |
+                    SmallPlane   BigPlane    
+
+
+
 ### Resources ###
 - https://en.wikipedia.org/wiki/Strategy_pattern
 - https://en.wikipedia.org/wiki/Observer_pattern
